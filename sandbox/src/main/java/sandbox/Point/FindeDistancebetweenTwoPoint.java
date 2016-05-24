@@ -10,8 +10,8 @@ public class FindeDistancebetweenTwoPoint {
         Point p3 = new Point(7,7);
         Point p4 = new Point(6,6);
 
-        System.out.println("Расстояние между двумя точками c  координатами " + "p1 = ("+p1.x1+","+ p1.y1 +")"+ " и p2 = ("+p2.x1+","+ p2.y1+")"+" = " +p1.distance(p1, p2));
-        System.out.println("Расстояние между двумя точками c  координатами " + "p3 = ("+p3.x1+","+ p3.y1 +")"+ " и p4 = ("+p4.x1+","+ p4.y1+")"+" = " +p1.distance(p3, p4));
+        System.out.println("Расстояние между двумя точками c  координатами " + "p1 = ("+p1.x1+","+ p1.y1 +")"+ " и p2 = ("+p2.x1+","+ p2.y1+")"+" = " +p1.distance(p2));
+        System.out.println("Расстояние между двумя точками c  координатами " + "p3 = ("+p3.x1+","+ p3.y1 +")"+ " и p4 = ("+p4.x1+","+ p4.y1+")"+" = " +p3.distance(p4));
 
     }
 }
